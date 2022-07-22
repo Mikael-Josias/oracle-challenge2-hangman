@@ -9,19 +9,24 @@
 
         <link rel="stylesheet" href="css/reset.css" />
         <link rel="stylesheet" href="css/style.css" />
-        <link rel="stylesheet" href="css/cabecalho.css" />
+        <link rel="stylesheet" href="css/cabecalho/cabecalho.css" />
+        <link rel="stylesheet" href="css/cabecalho/cabecalho-titulo.css" />
+        <link rel="stylesheet" href="css/menu/menu.css" />
+        <link rel="stylesheet" href="css/menuInicial/menuInicial.css" />
 
         <title>Jogo da Forca</title>
     </head>
     <body>
         <header class="cabecalho">
-            <h1>JOGO DA FORCA</h1>
+            <h1 class="cabecalho__titulo">JOGO DA FORCA</h1>
         </header>
-        <main>
-            <section>
-                <button id="btnJogar">JOGAR</button>
-                <button id="btnAdicionaPalavra">ADICIONAR PALAVRA</button>
+
+        <main class="menu">
+            <section class="menuInicial">
+                <button id="btnJogar" class="botao">JOGAR</button>
+                <button id="btnAdicionaPalavra" class="botao">DICIONÁRIO</button>
             </section>
+        </main>
         <footer>
             <span>Desenvolvido por Mikael Josias.</span>
         </footer>

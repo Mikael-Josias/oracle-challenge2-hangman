@@ -5,4 +5,25 @@ body{
     height: 100vh;
 
     background-image: url("../img/background.jpg");
+    
+    font-family: 'Amatic SC', cursive;
+}
+
+.botao{
+    margin: .5rem;
+    padding: .5rem 5rem;
+
+    border: none;
+    border-radius: 15px;
+
+    font-size: 1.6rem;
+    font-family: 'Amatic SC', cursive;
+    background-color: rgb(255, 255, 205);
+    cursor: pointer;
+    transition: .2s;
+}
+
+.botao:hover{
+    background-color: #0B3948;
+    color: rgb(255, 255, 205);
 }
