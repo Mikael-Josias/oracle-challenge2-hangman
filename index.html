@@ -25,9 +25,24 @@
         </header>
 
         <main class="menu">
-            <section class="menuInicial">
+            <section class="menuInicial container invisivel">
                 <button id="btnJogar" class="botao">JOGAR</button>
                 <button id="btnAdicionaPalavra" class="botao">DICIONÁRIO</button>
+            </section>
+
+            <section>
+                <span>PALAVRA:</span>
+                <div>
+                    <img src="img/permitido.png" />
+                    <input id="txtPalavra" type="text" class="inputTexto-erro" placeholder="EX: ORACLE" maxlength="15"/>
+                </div>
+                <span>DICA:</span>
+                <div>
+                    <img src="img/permitido.png" />
+                    <input id="txtDica" type="text" class="inputTexto-certo" placeholder="EX: EMPRESA" maxlength="15"/>
+                </div>
+
+                <button id="btnAdiciona" class="botao">ADICIONAR</button>
             </section>
         </main>
         <footer class="rodape">

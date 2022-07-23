@@ -9,6 +9,17 @@ body{
     font-family: 'Amatic SC', cursive;
 }
 
+.container{
+    background-color: #076786;
+    
+    padding: 3rem;
+    border-radius: 25px;
+}
+
+main .invisivel{
+    display: none;
+}
+
 .botao{
     margin: .5rem;
     padding: .5rem 5rem;

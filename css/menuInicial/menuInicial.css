@@ -2,9 +2,4 @@
 .menuInicial{
     display: flex;
     flex-direction: column;
-
-    background-color: #076786;
-    
-    padding: 4rem;
-    border-radius: 25px;
 }
